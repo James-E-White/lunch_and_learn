@@ -9,16 +9,13 @@ RSpec.describe EdamamService do
       expect(conn.params).to have_key :type
     end
   end
-
+  
   
   describe 'self.get_recipes' do
     xit 'returns a specific country' do
-     country = "Thailand"
-      
-     get "/api/v1/recipes?country=#{country}"
+      recipes = EdamamService.get_recipes('Thailand')
+      binding.pry
 
-     expect(response).to be_successful
-       
       expect(recipes).to be_a(Hash)
       expect(recipes[:hits]).to be_a(Array)
     end
