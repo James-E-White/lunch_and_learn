@@ -12,6 +12,7 @@
 /tmp/*
 !/log/.keep
 !/tmp/.keep
+/spec/rails_helper.rb
 
 # Ignore pidfiles, but keep the directory.
 /tmp/pids/*

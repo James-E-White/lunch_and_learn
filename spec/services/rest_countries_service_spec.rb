@@ -15,5 +15,8 @@ RSpec.describe RestCountriesService do
         expect(RestCountriesService.get_all_countries.first).to have_key(:capital)
         expect(RestCountriesService.get_all_countries.first[:name]).to be_a(Hash)
     end
+     
+
+
   end
 end
