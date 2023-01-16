@@ -1,6 +1,6 @@
 class Recipe
     attr_reader :label,
-                :uri,
+                :url,
                 :image,
                 :country
 
@@ -8,7 +8,7 @@ class Recipe
   def initialize(country, info)
     @country =  country
     @label = info[:label]
-    @uri = info[:uri]
+    @url = info[:url]
     @image = info[:image]
   
    
