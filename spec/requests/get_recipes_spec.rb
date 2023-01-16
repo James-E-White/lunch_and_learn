@@ -35,12 +35,23 @@ RSpec.describe 'get recipes for a country' do
 
   end
 
-  # it "returns a random country if user doesn't input one" do 
-  #   get '/api/v1/recipes?country='
+  it "returns a random country if user doesn't input one" do
+     allow(RestCountriesFacade).to receive(:random_country).and_return('Ireland')
+    get '/api/v1/recipes?country=Ireland'
 
-  #   expect(response).to be_successful
-  #   recipe = JSON.parse(response.body, symbolize_names: true)[:data][0]
+    expect(response).to be_successful
+    recipe = JSON.parse(response.body, symbolize_names: true)[:data][0]
     
-  #   expect(recipe[:attributes]).to have_key(:label)
-  # end
+    expect(recipe[:attributes]).to have_key(:label)
+    expect(recipe[:attributes][:label]).to be_a(String)
+
+    expect(recipe[:attributes]).to have_key(:url)
+    expect(recipe[:attributes][:url]).to be_a(String)
+
+    expect(recipe[:attributes]).to have_key(:image)
+    expect(recipe[:attributes][:image]).to be_a(String)
+
+    expect(recipe[:attributes]).to have_key(:country)
+    expect(recipe[:attributes][:country]).to be_a(String)
+  end
 end

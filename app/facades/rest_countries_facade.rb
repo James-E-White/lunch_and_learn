@@ -5,9 +5,9 @@ class RestCountriesFacade
     end
   end
 
-  def self.valid_country?(country)
-    name.include?(country.titleize)
-  end
+  # def self.valid_country?(country)
+  #   name.include?(country.titleize)
+  # end
 
   def self.random_country
     RestCountriesService.get_all_countries.sample

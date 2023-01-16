@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/jameswhite/Desktop/Turing/Mod3/solo_projects/lunch_and_learn/spec/services/photo_service_spec.rb": {
+      "/Users/jameswhite/Desktop/Turing/Mod3/solo_projects/lunch_and_learn/spec/facades/learning_resources_facade_spec.rb": {
         "lines": [
           1,
           null,
@@ -10,15 +10,11 @@
           1,
           1,
           null,
-          1,
-          1,
+          0,
+          0,
+          0,
+          0,
           null,
-          1,
-          1,
-          null,
-          1,
-          1,
-          1,
           null,
           null,
           null
@@ -318,7 +314,52 @@
           null
         ]
       },
-      "/Users/jameswhite/Desktop/Turing/Mod3/solo_projects/lunch_and_learn/app/services/photo_service.rb": {
+      "/Users/jameswhite/Desktop/Turing/Mod3/solo_projects/lunch_and_learn/app/facades/learning_resources_facade.rb": {
+        "lines": [
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          null,
+          null
+        ]
+      },
+      "/Users/jameswhite/Desktop/Turing/Mod3/solo_projects/lunch_and_learn/app/services/youtube_service.rb": {
         "lines": [
           1,
           1,
@@ -326,15 +367,15 @@
           1,
           null,
           null,
-          1,
-          1,
-          1,
           null,
+          1,
+          1,
+          1,
           null,
           null
         ]
       }
     },
-    "timestamp": 1673892361
+    "timestamp": 1673908649
   }
 }
