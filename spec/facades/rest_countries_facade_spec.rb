@@ -1,12 +1,23 @@
 require 'rails_helper'
 
 RSpec.describe RestCountriesFacade do
-  describe 'random country' do
-      it 'creates a country object from a randomly selected country' do
-        country = RestCountriesFacade.get_all_countries
+      it 'exists' do 
+        country = RestCountriesFacade.new
 
-        expect(country).to be_instance_of(Country)
-        expect(country.name).to_not eq(nil)
+        expect(country).to be_an_instance_of(RestCountriesFacade)
+
+      end
+
+    describe 'get_all_countries' do 
+      it 'returns the country as an object' do 
+       expect(RestCountriesFacade.get_all_countries).to be_an(Array)
+       expect(RestCountriesFacade.get_all_countries.first).to be_a(RestCountry)
+      end
+    end
+    
+    describe 'random_country' do 
+      it 'returns a random country' do 
+        expect(RestCountriesFacade.random_country.first).to be_an(Array)
       end
     end
   
