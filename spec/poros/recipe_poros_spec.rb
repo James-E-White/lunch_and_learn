@@ -15,7 +15,7 @@ RSpec.describe Recipe do
 
     expect(recipe).to be_an_instance_of(Recipe)
     expect(recipe.label).to eq("Palm Sugar Simple Syrup")
-    expect(recipe.uri).to eq("https://www.seriouseats.com/recipes/")
+    expect(recipe.url).to eq(nil)
     expect(recipe.image).to eq("https://edamam-product-images.com")
    end
   end
