@@ -4,7 +4,7 @@ class Api::V1::RecipesController < ApplicationController
       render json: RecipesSerializer.new(RecipesFacade.get_recipes(params[:country]))
     else
       country = RestCountriesFacade.random_country
-      render json: RecipesSerializer.new(RecipesFacade.get_recipes(country.name))
+      render json: RecipesSerializer.new(RecipesFacade.get_recipes(country))
     end
   end
 end
