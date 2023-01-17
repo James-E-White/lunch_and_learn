@@ -14,7 +14,7 @@
       <img src="./assets/0.12.3/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" class="hide">
-      <div class="timestamp">Generated <abbr class="timeago" title="2023-01-17T09:52:12-08:00">2023-01-17T09:52:12-08:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2023-01-17T10:26:19-08:00">2023-01-17T10:26:19-08:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -30,7 +30,7 @@
      covered at
      <span class="covered_strength">
        <span class="green">
-         8.93
+         9.07
        </span>
     </span> hits/line
     )
@@ -43,8 +43,8 @@
   </div>
 
   <div class="t-line-summary">
-    <b>407</b> relevant lines,
-    <span class="green"><b>405</b> lines covered</span> and
+    <b>411</b> relevant lines,
+    <span class="green"><b>409</b> lines covered</span> and
     <span class="red"><b>2</b> lines missed. </span>
     (<span class="green">
   99.51%
@@ -561,7 +561,7 @@
             <td class="cell--number">28</td>
             <td class="cell--number">26</td>
             <td class="cell--number">2</td>
-            <td class="cell--number">65.36</td>
+            <td class="cell--number">68.50</td>
             
           </tr>
         
@@ -579,9 +579,9 @@
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#f4819f98711d70a04739df1345289ed84d5b7ed4" class="src_link" title="spec/requests/post_favorites_spec.rb">spec/requests/post_favorites_spec.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
-            <td class="cell--number">18</td>
-            <td class="cell--number">13</td>
-            <td class="cell--number">13</td>
+            <td class="cell--number">25</td>
+            <td class="cell--number">17</td>
+            <td class="cell--number">17</td>
             <td class="cell--number">0</td>
             <td class="cell--number">1.00</td>
             
@@ -8672,8 +8672,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="452" data-linenumber="12">
-            <span class="hits">452</span>
+          <li class="covered" data-hits="474" data-linenumber="12">
+            <span class="hits">474</span>
             
 
             
@@ -8683,8 +8683,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="452" data-linenumber="13">
-            <span class="hits">452</span>
+          <li class="covered" data-hits="474" data-linenumber="13">
+            <span class="hits">474</span>
             
 
             
@@ -8694,8 +8694,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="452" data-linenumber="14">
-            <span class="hits">452</span>
+          <li class="covered" data-hits="474" data-linenumber="14">
+            <span class="hits">474</span>
             
 
             
@@ -8705,8 +8705,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="452" data-linenumber="15">
-            <span class="hits">452</span>
+          <li class="covered" data-hits="474" data-linenumber="15">
+            <span class="hits">474</span>
             
 
             
@@ -10151,8 +10151,8 @@
     
 
     <div class="t-line-summary">
-      <b>13</b> relevant lines.
-      <span class="green"><b>13</b> lines covered</span> and
+      <b>17</b> relevant lines.
+      <span class="green"><b>17</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
 
@@ -10263,13 +10263,13 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="10">
-            <span class="hits">1</span>
+          <li class="never" data-hits="" data-linenumber="10">
+            
             
 
             
 
-            <code class="ruby">   it &#39;adds recipes to a favorite list for user&#39; do</code>
+            <code class="ruby">  </code>
           </li>
         </div>
       
@@ -10280,7 +10280,7 @@
 
             
 
-            <code class="ruby">    headers = { &#39;CONTENT_TYPE&#39; =&gt; &#39;application/json&#39;}   </code>
+            <code class="ruby">   it &#39;adds recipes to a favorite list for user&#39; do</code>
           </li>
         </div>
       
@@ -10291,7 +10291,7 @@
 
             
 
-            <code class="ruby">    body = { &#39;api_key&#39;: &quot;#{@user.api_key}&quot;, &#39;country&#39;: &#39;Thailand&#39;, &#39;recipe_link&#39;: &#39;&#39;, &#39;recipe_title&#39;: &#39;&#39; }</code>
+            <code class="ruby">    headers = { &#39;CONTENT_TYPE&#39; =&gt; &#39;application/json&#39;}   </code>
           </li>
         </div>
       
@@ -10302,12 +10302,23 @@
 
             
 
+            <code class="ruby">    body = { &#39;api_key&#39;: &quot;#{@user.api_key}&quot;, &#39;country&#39;: &#39;Thailand&#39;, &#39;recipe_link&#39;: &#39;www.goodfood.com&#39;, &#39;recipe_title&#39;: &#39;amazing eats&#39; }</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="14">
+            <span class="hits">1</span>
+            
+
+            
+
             <code class="ruby">    post &#39;/api/v1/favorites&#39;, headers: headers, params: body, as: :json</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="14">
+          <li class="never" data-hits="" data-linenumber="15">
             
             
 
@@ -10318,7 +10329,7 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="15">
+          <li class="covered" data-hits="1" data-linenumber="16">
             <span class="hits">1</span>
             
 
@@ -10329,7 +10340,7 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="16">
+          <li class="covered" data-hits="1" data-linenumber="17">
             <span class="hits">1</span>
             
 
@@ -10340,7 +10351,73 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="17">
+          <li class="never" data-hits="" data-linenumber="18">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="19">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    parsed_response = JSON.parse(response.body, symbolize_names: true)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="20">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="21">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(parsed_response).to be_a(Hash)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="22">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(parsed_response).to have_key(:success)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="23">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(parsed_response[:success]).to eq(&#39;Favorite added successfully&#39;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="24">
             
             
 
@@ -10351,7 +10428,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="18">
+          <li class="never" data-hits="" data-linenumber="25">
             
             
 
