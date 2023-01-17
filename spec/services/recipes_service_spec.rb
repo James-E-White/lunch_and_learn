@@ -11,7 +11,7 @@ RSpec.describe RecipesService do
   end
   
   
-  describe 'self.get_recipes' do
+  describe 'self.get_recipes', :vcr do
     it 'returns a specific country' do
         
       recipes = RecipesService.get_recipes('Thailand')

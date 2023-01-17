@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe PhotoService do
+RSpec.describe PhotoService, :vcr do
     describe 'find photos' do 
      it 'returns 10 photos for country searched' do 
       response = PhotoService.find_photos("Thailand")

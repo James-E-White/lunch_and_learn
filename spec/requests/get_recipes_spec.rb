@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe 'get recipes for a country' do
+RSpec.describe 'get recipes for a country', :vcr do
   it 'returns recipes for a country' do
    
     get '/api/v1/recipes?country=thailand'

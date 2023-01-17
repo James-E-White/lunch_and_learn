@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe Recipe do
+RSpec.describe Recipe, :vcr do
   describe 'initialize' do
    it 'exists' do
     info = {

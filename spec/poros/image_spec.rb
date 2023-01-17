@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe Image do
+RSpec.describe Image, :vcr do
   describe '#initialize' do
     it 'has attributes' do
       data = PhotoService.find_photos('Thailand')
