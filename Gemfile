@@ -38,8 +38,8 @@ group :development, :test do
   gem 'simplecov'
   gem 'capybara'
   gem 'shoulda-matchers'
-  gem 'webmock'
   gem 'vcr'
+  gem 'webmock'
 end
 
 group :development do
