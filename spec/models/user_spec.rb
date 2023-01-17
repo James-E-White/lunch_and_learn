@@ -9,8 +9,8 @@ RSpec.describe User do
    describe 'relationships' do 
     it { should have_many :favorites }
    end
-   describe 'create_api_key' do
-      it 'generates random api key upon creation of User' do 
+   describe 'create_api_key/self.api_key' do
+      it 'generates random api/self.api_key key upon creation of User' do 
            user = User.create(
       name: "Athena Dao",
       email: "athenadao@bestgirlever.com",
