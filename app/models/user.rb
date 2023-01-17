@@ -1,7 +1,7 @@
 class User < ApplicationRecord
   validates :name, :email, presence: true
   validates :email, uniqueness: true
-  after_create :create_api_key
+  before_create :create_api_key
   validates :api_key, uniqueness: true
   has_many :favorites
 

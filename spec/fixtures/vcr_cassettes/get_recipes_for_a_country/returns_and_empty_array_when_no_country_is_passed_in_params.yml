@@ -462,4 +462,1302 @@ http_interactions:
       encoding: UTF-8
       string: '{"from":1,"to":0,"count":0,"_links":{},"hits":[]}'
   recorded_at: Tue, 17 Jan 2023 05:43:28 GMT
+- request:
+    method: get
+    uri: https://api.edamam.com/api/recipes/v2?app_id=app_id&app_key=app_key&q=Sulawesi&type=public
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.3
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Tue, 17 Jan 2023 15:18:41 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '49'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - private
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      X-Served-By:
+      - ip-10-0-1-48.ec2.internal/10.0.1.48
+      Strict-Transport-Security:
+      - max-age=15552001
+      X-Request-Id:
+      - '0458c9b5e5b0f8403dab20fb953e0c2b'
+    body:
+      encoding: UTF-8
+      string: '{"from":1,"to":0,"count":0,"_links":{},"hits":[]}'
+  recorded_at: Tue, 17 Jan 2023 15:18:41 GMT
+- request:
+    method: get
+    uri: https://api.edamam.com/api/recipes/v2?app_id=app_id&app_key=app_key&q=Sulawesi&type=public
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.3
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Tue, 17 Jan 2023 16:50:23 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '49'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - private
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      X-Served-By:
+      - ip-10-0-1-48.ec2.internal/10.0.1.48
+      Strict-Transport-Security:
+      - max-age=15552001
+      X-Request-Id:
+      - c62ec9765f22a63cc3174e0d109a99b6
+    body:
+      encoding: UTF-8
+      string: '{"from":1,"to":0,"count":0,"_links":{},"hits":[]}'
+  recorded_at: Tue, 17 Jan 2023 16:50:23 GMT
+- request:
+    method: get
+    uri: https://api.edamam.com/api/recipes/v2?app_id=app_id&app_key=app_key&q=Sulawesi&type=public
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.3
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Tue, 17 Jan 2023 16:54:34 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '49'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - private
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      X-Served-By:
+      - ip-10-0-1-22.ec2.internal/10.0.1.22
+      Strict-Transport-Security:
+      - max-age=15552001
+      X-Request-Id:
+      - 7981d7befbac6d7e27cdcff000306975
+    body:
+      encoding: UTF-8
+      string: '{"from":1,"to":0,"count":0,"_links":{},"hits":[]}'
+  recorded_at: Tue, 17 Jan 2023 16:54:34 GMT
+- request:
+    method: get
+    uri: https://api.edamam.com/api/recipes/v2?app_id=app_id&app_key=app_key&q=Sulawesi&type=public
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.3
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Tue, 17 Jan 2023 16:54:58 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '49'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - private
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      X-Served-By:
+      - ip-10-0-1-22.ec2.internal/10.0.1.22
+      Strict-Transport-Security:
+      - max-age=15552001
+      X-Request-Id:
+      - 333554851be5a4264854eb8bf1c66859
+    body:
+      encoding: UTF-8
+      string: '{"from":1,"to":0,"count":0,"_links":{},"hits":[]}'
+  recorded_at: Tue, 17 Jan 2023 16:54:58 GMT
+- request:
+    method: get
+    uri: https://api.edamam.com/api/recipes/v2?app_id=app_id&app_key=app_key&q=Sulawesi&type=public
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.3
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Tue, 17 Jan 2023 16:57:19 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '49'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - private
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      X-Served-By:
+      - ip-10-0-1-48.ec2.internal/10.0.1.48
+      Strict-Transport-Security:
+      - max-age=15552001
+      X-Request-Id:
+      - 54b24032a563c9890895eea6597f2f7b
+    body:
+      encoding: UTF-8
+      string: '{"from":1,"to":0,"count":0,"_links":{},"hits":[]}'
+  recorded_at: Tue, 17 Jan 2023 16:57:19 GMT
+- request:
+    method: get
+    uri: https://api.edamam.com/api/recipes/v2?app_id=app_id&app_key=app_key&q=Sulawesi&type=public
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.3
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Tue, 17 Jan 2023 16:57:32 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '49'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - private
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      X-Served-By:
+      - ip-10-0-1-22.ec2.internal/10.0.1.22
+      Strict-Transport-Security:
+      - max-age=15552001
+      X-Request-Id:
+      - 7446f718771e4a411756ec76ef76afd4
+    body:
+      encoding: UTF-8
+      string: '{"from":1,"to":0,"count":0,"_links":{},"hits":[]}'
+  recorded_at: Tue, 17 Jan 2023 16:57:32 GMT
+- request:
+    method: get
+    uri: https://api.edamam.com/api/recipes/v2?app_id=app_id&app_key=app_key&q=Sulawesi&type=public
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.3
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Tue, 17 Jan 2023 17:00:36 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '49'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - private
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      X-Served-By:
+      - ip-10-0-1-22.ec2.internal/10.0.1.22
+      Strict-Transport-Security:
+      - max-age=15552001
+      X-Request-Id:
+      - 1ecffb63c876eeaa289307a0cbb1408e
+    body:
+      encoding: UTF-8
+      string: '{"from":1,"to":0,"count":0,"_links":{},"hits":[]}'
+  recorded_at: Tue, 17 Jan 2023 17:00:36 GMT
+- request:
+    method: get
+    uri: https://api.edamam.com/api/recipes/v2?app_id=app_id&app_key=app_key&q=Sulawesi&type=public
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.3
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Tue, 17 Jan 2023 17:03:07 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '49'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - private
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      X-Served-By:
+      - ip-10-0-1-22.ec2.internal/10.0.1.22
+      Strict-Transport-Security:
+      - max-age=15552001
+      X-Request-Id:
+      - 5131f1d06ad052368b6d4dabdcd49369
+    body:
+      encoding: UTF-8
+      string: '{"from":1,"to":0,"count":0,"_links":{},"hits":[]}'
+  recorded_at: Tue, 17 Jan 2023 17:03:07 GMT
+- request:
+    method: get
+    uri: https://api.edamam.com/api/recipes/v2?app_id=app_id&app_key=app_key&q=Sulawesi&type=public
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.3
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Tue, 17 Jan 2023 17:03:32 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '49'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - private
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      X-Served-By:
+      - ip-10-0-1-22.ec2.internal/10.0.1.22
+      Strict-Transport-Security:
+      - max-age=15552001
+      X-Request-Id:
+      - 3392f21a8dbe913538819c03f1f6d139
+    body:
+      encoding: UTF-8
+      string: '{"from":1,"to":0,"count":0,"_links":{},"hits":[]}'
+  recorded_at: Tue, 17 Jan 2023 17:03:32 GMT
+- request:
+    method: get
+    uri: https://api.edamam.com/api/recipes/v2?app_id=app_id&app_key=app_key&q=Sulawesi&type=public
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.3
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Tue, 17 Jan 2023 17:06:12 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '49'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - private
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      X-Served-By:
+      - ip-10-0-1-48.ec2.internal/10.0.1.48
+      Strict-Transport-Security:
+      - max-age=15552001
+      X-Request-Id:
+      - 8c9c247ab4a4c17cf3f07dd465e3fb10
+    body:
+      encoding: UTF-8
+      string: '{"from":1,"to":0,"count":0,"_links":{},"hits":[]}'
+  recorded_at: Tue, 17 Jan 2023 17:06:12 GMT
+- request:
+    method: get
+    uri: https://api.edamam.com/api/recipes/v2?app_id=app_id&app_key=app_key&q=Sulawesi&type=public
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.3
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Tue, 17 Jan 2023 17:08:51 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '49'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - private
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      X-Served-By:
+      - ip-10-0-1-22.ec2.internal/10.0.1.22
+      Strict-Transport-Security:
+      - max-age=15552001
+      X-Request-Id:
+      - 9f00fb80c6f09607af515dfbfa3bf92a
+    body:
+      encoding: UTF-8
+      string: '{"from":1,"to":0,"count":0,"_links":{},"hits":[]}'
+  recorded_at: Tue, 17 Jan 2023 17:08:51 GMT
+- request:
+    method: get
+    uri: https://api.edamam.com/api/recipes/v2?app_id=app_id&app_key=app_key&q=Sulawesi&type=public
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.3
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Tue, 17 Jan 2023 17:09:34 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '49'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - private
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      X-Served-By:
+      - ip-10-0-1-22.ec2.internal/10.0.1.22
+      Strict-Transport-Security:
+      - max-age=15552001
+      X-Request-Id:
+      - a7782ff06f03ed65200a70e5e81e3326
+    body:
+      encoding: UTF-8
+      string: '{"from":1,"to":0,"count":0,"_links":{},"hits":[]}'
+  recorded_at: Tue, 17 Jan 2023 17:09:34 GMT
+- request:
+    method: get
+    uri: https://api.edamam.com/api/recipes/v2?app_id=app_id&app_key=app_key&q=Sulawesi&type=public
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.3
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Tue, 17 Jan 2023 17:11:22 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '49'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - private
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      X-Served-By:
+      - ip-10-0-1-48.ec2.internal/10.0.1.48
+      Strict-Transport-Security:
+      - max-age=15552001
+      X-Request-Id:
+      - 71adfbfa048592f97e839d910ca13083
+    body:
+      encoding: UTF-8
+      string: '{"from":1,"to":0,"count":0,"_links":{},"hits":[]}'
+  recorded_at: Tue, 17 Jan 2023 17:11:22 GMT
+- request:
+    method: get
+    uri: https://api.edamam.com/api/recipes/v2?app_id=app_id&app_key=app_key&q=Sulawesi&type=public
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.3
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Tue, 17 Jan 2023 17:12:11 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '49'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - private
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      X-Served-By:
+      - ip-10-0-1-22.ec2.internal/10.0.1.22
+      Strict-Transport-Security:
+      - max-age=15552001
+      X-Request-Id:
+      - d5e0a005bf3a9b7b1d5f7fbbb71f7c8c
+    body:
+      encoding: UTF-8
+      string: '{"from":1,"to":0,"count":0,"_links":{},"hits":[]}'
+  recorded_at: Tue, 17 Jan 2023 17:12:11 GMT
+- request:
+    method: get
+    uri: https://api.edamam.com/api/recipes/v2?app_id=app_id&app_key=app_key&q=Sulawesi&type=public
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.3
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Tue, 17 Jan 2023 17:14:38 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '49'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - private
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      X-Served-By:
+      - ip-10-0-1-22.ec2.internal/10.0.1.22
+      Strict-Transport-Security:
+      - max-age=15552001
+      X-Request-Id:
+      - 4f28d0a48f5e9fd091bda7c39b771928
+    body:
+      encoding: UTF-8
+      string: '{"from":1,"to":0,"count":0,"_links":{},"hits":[]}'
+  recorded_at: Tue, 17 Jan 2023 17:14:38 GMT
+- request:
+    method: get
+    uri: https://api.edamam.com/api/recipes/v2?app_id=app_id&app_key=app_key&q=Sulawesi&type=public
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.3
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Tue, 17 Jan 2023 17:16:28 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '49'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - private
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      X-Served-By:
+      - ip-10-0-1-22.ec2.internal/10.0.1.22
+      Strict-Transport-Security:
+      - max-age=15552001
+      X-Request-Id:
+      - 85f68257ff1a6f6d8932b06d1b5bfef7
+    body:
+      encoding: UTF-8
+      string: '{"from":1,"to":0,"count":0,"_links":{},"hits":[]}'
+  recorded_at: Tue, 17 Jan 2023 17:16:28 GMT
+- request:
+    method: get
+    uri: https://api.edamam.com/api/recipes/v2?app_id=app_id&app_key=app_key&q=Sulawesi&type=public
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.3
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Tue, 17 Jan 2023 17:17:00 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '49'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - private
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      X-Served-By:
+      - ip-10-0-1-48.ec2.internal/10.0.1.48
+      Strict-Transport-Security:
+      - max-age=15552001
+      X-Request-Id:
+      - 91529efbb3b4794d53c9e082d2c35bae
+    body:
+      encoding: UTF-8
+      string: '{"from":1,"to":0,"count":0,"_links":{},"hits":[]}'
+  recorded_at: Tue, 17 Jan 2023 17:17:00 GMT
+- request:
+    method: get
+    uri: https://api.edamam.com/api/recipes/v2?app_id=app_id&app_key=app_key&q=Sulawesi
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.3
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 400
+      message: ''
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Tue, 17 Jan 2023 17:18:20 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '60'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - private
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      X-Served-By:
+      - ip-10-0-1-22.ec2.internal/10.0.1.22
+      Strict-Transport-Security:
+      - max-age=15552001
+    body:
+      encoding: UTF-8
+      string: '[{"error":"must not be null","property":"search.arg0.type"}]'
+  recorded_at: Tue, 17 Jan 2023 17:18:20 GMT
+- request:
+    method: get
+    uri: https://api.edamam.com/api/recipes/v2?app_id=app_id&app_key=app_key&q=Sulawesi&type=public
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.3
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Tue, 17 Jan 2023 17:18:54 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '49'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - private
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      X-Served-By:
+      - ip-10-0-1-22.ec2.internal/10.0.1.22
+      Strict-Transport-Security:
+      - max-age=15552001
+      X-Request-Id:
+      - b1f8f5eb02a55b5085148c0e3ce4513e
+    body:
+      encoding: UTF-8
+      string: '{"from":1,"to":0,"count":0,"_links":{},"hits":[]}'
+  recorded_at: Tue, 17 Jan 2023 17:18:54 GMT
+- request:
+    method: get
+    uri: https://api.edamam.com/api/recipes/v2?app_id=app_id&app_key=app_key&q=Sulawesi
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.3
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 400
+      message: ''
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Tue, 17 Jan 2023 17:20:15 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '60'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - private
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      X-Served-By:
+      - ip-10-0-1-22.ec2.internal/10.0.1.22
+      Strict-Transport-Security:
+      - max-age=15552001
+    body:
+      encoding: UTF-8
+      string: '[{"error":"must not be null","property":"search.arg0.type"}]'
+  recorded_at: Tue, 17 Jan 2023 17:20:15 GMT
+- request:
+    method: get
+    uri: https://api.edamam.com/api/recipes/v2?app_id=app_id&app_key=app_key&q=Sulawesi&type=public
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.3
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Tue, 17 Jan 2023 17:20:51 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '49'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - private
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      X-Served-By:
+      - ip-10-0-1-22.ec2.internal/10.0.1.22
+      Strict-Transport-Security:
+      - max-age=15552001
+      X-Request-Id:
+      - a7d718b8ab86f29d8efe8b846b47d21f
+    body:
+      encoding: UTF-8
+      string: '{"from":1,"to":0,"count":0,"_links":{},"hits":[]}'
+  recorded_at: Tue, 17 Jan 2023 17:20:51 GMT
+- request:
+    method: get
+    uri: https://api.edamam.com/api/recipes/v2?app_id=app_id&app_key=app_key&q=Sulawesi&type=public
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.3
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Tue, 17 Jan 2023 17:23:48 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '49'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - private
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      X-Served-By:
+      - ip-10-0-1-22.ec2.internal/10.0.1.22
+      Strict-Transport-Security:
+      - max-age=15552001
+      X-Request-Id:
+      - f67f01bfeefcfb3af58a89497329c32b
+    body:
+      encoding: UTF-8
+      string: '{"from":1,"to":0,"count":0,"_links":{},"hits":[]}'
+  recorded_at: Tue, 17 Jan 2023 17:23:48 GMT
+- request:
+    method: get
+    uri: https://api.edamam.com/api/recipes/v2?app_id=app_id&app_key=app_key&q=Sulawesi&type=public
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.3
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Tue, 17 Jan 2023 17:26:25 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '49'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - private
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      X-Served-By:
+      - ip-10-0-1-22.ec2.internal/10.0.1.22
+      Strict-Transport-Security:
+      - max-age=15552001
+      X-Request-Id:
+      - 9fc29c98f42a1407e7c97a31550063e7
+    body:
+      encoding: UTF-8
+      string: '{"from":1,"to":0,"count":0,"_links":{},"hits":[]}'
+  recorded_at: Tue, 17 Jan 2023 17:26:25 GMT
+- request:
+    method: get
+    uri: https://api.edamam.com/api/recipes/v2?app_id=app_id&app_key=app_key&q=Sulawesi&type=public
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.3
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Tue, 17 Jan 2023 17:26:41 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '49'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - private
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      X-Served-By:
+      - ip-10-0-1-22.ec2.internal/10.0.1.22
+      Strict-Transport-Security:
+      - max-age=15552001
+      X-Request-Id:
+      - e29ad6fb7b994fe63334dd7b0af4b614
+    body:
+      encoding: UTF-8
+      string: '{"from":1,"to":0,"count":0,"_links":{},"hits":[]}'
+  recorded_at: Tue, 17 Jan 2023 17:26:41 GMT
+- request:
+    method: get
+    uri: https://api.edamam.com/api/recipes/v2?app_id=app_id&app_key=app_key&q=Sulawesi&type=public
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.3
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Tue, 17 Jan 2023 17:27:14 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '49'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - private
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      X-Served-By:
+      - ip-10-0-1-22.ec2.internal/10.0.1.22
+      Strict-Transport-Security:
+      - max-age=15552001
+      X-Request-Id:
+      - '0818e456f6d8fa21e17972a74b8b5fc7'
+    body:
+      encoding: UTF-8
+      string: '{"from":1,"to":0,"count":0,"_links":{},"hits":[]}'
+  recorded_at: Tue, 17 Jan 2023 17:27:14 GMT
+- request:
+    method: get
+    uri: https://api.edamam.com/api/recipes/v2?app_id=app_id&app_key=app_key&q=Sulawesi&type=public
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.3
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Tue, 17 Jan 2023 17:28:19 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '49'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - private
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      X-Served-By:
+      - ip-10-0-1-22.ec2.internal/10.0.1.22
+      Strict-Transport-Security:
+      - max-age=15552001
+      X-Request-Id:
+      - 36648228b4f767126444461f6c720824
+    body:
+      encoding: UTF-8
+      string: '{"from":1,"to":0,"count":0,"_links":{},"hits":[]}'
+  recorded_at: Tue, 17 Jan 2023 17:28:19 GMT
+- request:
+    method: get
+    uri: https://api.edamam.com/api/recipes/v2?app_id=app_id&app_key=app_key&q=Sulawesi&type=public
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.3
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Tue, 17 Jan 2023 17:28:51 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '49'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - private
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      X-Served-By:
+      - ip-10-0-1-22.ec2.internal/10.0.1.22
+      Strict-Transport-Security:
+      - max-age=15552001
+      X-Request-Id:
+      - f197720e397515d30b192e1627949272
+    body:
+      encoding: UTF-8
+      string: '{"from":1,"to":0,"count":0,"_links":{},"hits":[]}'
+  recorded_at: Tue, 17 Jan 2023 17:28:51 GMT
+- request:
+    method: get
+    uri: https://api.edamam.com/api/recipes/v2?app_id=app_id&app_key=app_key&q=Sulawesi&type=public
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.3
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Tue, 17 Jan 2023 17:31:01 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '49'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - private
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      X-Served-By:
+      - ip-10-0-1-48.ec2.internal/10.0.1.48
+      Strict-Transport-Security:
+      - max-age=15552001
+      X-Request-Id:
+      - df5b35f573919651a7c7a65dad367fdf
+    body:
+      encoding: UTF-8
+      string: '{"from":1,"to":0,"count":0,"_links":{},"hits":[]}'
+  recorded_at: Tue, 17 Jan 2023 17:31:01 GMT
+- request:
+    method: get
+    uri: https://api.edamam.com/api/recipes/v2?app_id=app_id&app_key=app_key&q=Sulawesi&type=public
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.3
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Tue, 17 Jan 2023 17:31:15 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '49'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - private
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      X-Served-By:
+      - ip-10-0-1-22.ec2.internal/10.0.1.22
+      Strict-Transport-Security:
+      - max-age=15552001
+      X-Request-Id:
+      - c4516bd552246383fc55f2828cc3b28f
+    body:
+      encoding: UTF-8
+      string: '{"from":1,"to":0,"count":0,"_links":{},"hits":[]}'
+  recorded_at: Tue, 17 Jan 2023 17:31:15 GMT
+- request:
+    method: get
+    uri: https://api.edamam.com/api/recipes/v2?app_id=app_id&app_key=app_key&q=Sulawesi&type=public
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.3
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Tue, 17 Jan 2023 17:38:28 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '49'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - private
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      X-Served-By:
+      - ip-10-0-1-48.ec2.internal/10.0.1.48
+      Strict-Transport-Security:
+      - max-age=15552001
+      X-Request-Id:
+      - 98a20d67b6b44ebc09c0be3c866fa295
+    body:
+      encoding: UTF-8
+      string: '{"from":1,"to":0,"count":0,"_links":{},"hits":[]}'
+  recorded_at: Tue, 17 Jan 2023 17:38:28 GMT
+- request:
+    method: get
+    uri: https://api.edamam.com/api/recipes/v2?app_id=app_id&app_key=app_key&q=Sulawesi&type=public
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.7.3
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: ''
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Tue, 17 Jan 2023 17:38:51 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '49'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - private
+      Expires:
+      - Thu, 01 Jan 1970 00:00:00 GMT
+      X-Served-By:
+      - ip-10-0-1-22.ec2.internal/10.0.1.22
+      Strict-Transport-Security:
+      - max-age=15552001
+      X-Request-Id:
+      - eda1f235653dab67578e87a33bdd742d
+    body:
+      encoding: UTF-8
+      string: '{"from":1,"to":0,"count":0,"_links":{},"hits":[]}'
+  recorded_at: Tue, 17 Jan 2023 17:38:51 GMT
 recorded_with: VCR 6.1.0
