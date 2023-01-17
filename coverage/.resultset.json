@@ -1,113 +1,6 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/jameswhite/Desktop/Turing/Mod3/solo_projects/lunch_and_learn/spec/facades/learning_resources_facade_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/jameswhite/Desktop/Turing/Mod3/solo_projects/lunch_and_learn/spec/rails_helper.rb": {
-        "lines": [
-          null,
-          1,
-          1,
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          474,
-          474,
-          474,
-          474,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          0,
-          0,
-          null,
-          1,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null,
-          1,
-          null,
-          null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
       "/Users/jameswhite/Desktop/Turing/Mod3/solo_projects/lunch_and_learn/config/environment.rb": {
         "lines": [
           null,
@@ -316,16 +209,6 @@
           null
         ]
       },
-      "/Users/jameswhite/Desktop/Turing/Mod3/solo_projects/lunch_and_learn/spec/factories/factory_bot.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
       "/Users/jameswhite/Desktop/Turing/Mod3/solo_projects/lunch_and_learn/config/routes.rb": {
         "lines": [
           1,
@@ -352,67 +235,12 @@
           null
         ]
       },
-      "/Users/jameswhite/Desktop/Turing/Mod3/solo_projects/lunch_and_learn/spec/facades/recipes_facade_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
       "/Users/jameswhite/Desktop/Turing/Mod3/solo_projects/lunch_and_learn/app/facades/recipes_facade.rb": {
         "lines": [
           1,
           1,
           4,
           60,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/jameswhite/Desktop/Turing/Mod3/solo_projects/lunch_and_learn/spec/facades/rest_countries_facade_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          null,
-          1,
-          null,
-          null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
           null,
           null,
           null
@@ -438,21 +266,6 @@
           null
         ]
       },
-      "/Users/jameswhite/Desktop/Turing/Mod3/solo_projects/lunch_and_learn/spec/models/favorite_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          2,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
       "/Users/jameswhite/Desktop/Turing/Mod3/solo_projects/lunch_and_learn/app/models/favorite.rb": {
         "lines": [
           1,
@@ -468,34 +281,6 @@
           null
         ]
       },
-      "/Users/jameswhite/Desktop/Turing/Mod3/solo_projects/lunch_and_learn/spec/models/user_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          2,
-          2,
-          2,
-          null,
-          1,
-          2,
-          null,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null,
-          null
-        ]
-      },
       "/Users/jameswhite/Desktop/Turing/Mod3/solo_projects/lunch_and_learn/app/models/user.rb": {
         "lines": [
           1,
@@ -507,27 +292,7 @@
           null,
           1,
           1,
-          4,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/jameswhite/Desktop/Turing/Mod3/solo_projects/lunch_and_learn/spec/poros/country_poros_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          null,
-          1,
-          null,
-          null,
-          1,
-          null,
-          1,
-          1,
+          5,
           null,
           null,
           null
@@ -544,28 +309,6 @@
           null
         ]
       },
-      "/Users/jameswhite/Desktop/Turing/Mod3/solo_projects/lunch_and_learn/spec/poros/image_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null
-        ]
-      },
       "/Users/jameswhite/Desktop/Turing/Mod3/solo_projects/lunch_and_learn/app/poros/image.rb": {
         "lines": [
           1,
@@ -574,44 +317,6 @@
           1,
           1,
           1,
-          null,
-          null
-        ]
-      },
-      "/Users/jameswhite/Desktop/Turing/Mod3/solo_projects/lunch_and_learn/spec/poros/learning_resource_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          null,
           null,
           null
         ]
@@ -627,32 +332,6 @@
           2,
           2,
           2,
-          null,
-          null
-        ]
-      },
-      "/Users/jameswhite/Desktop/Turing/Mod3/solo_projects/lunch_and_learn/spec/poros/recipe_poros_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
           null,
           null
         ]
@@ -679,23 +358,6 @@
           null
         ]
       },
-      "/Users/jameswhite/Desktop/Turing/Mod3/solo_projects/lunch_and_learn/spec/poros/video_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          1,
-          null,
-          null,
-          null
-        ]
-      },
       "/Users/jameswhite/Desktop/Turing/Mod3/solo_projects/lunch_and_learn/app/poros/video.rb": {
         "lines": [
           1,
@@ -704,151 +366,6 @@
           1,
           1,
           1,
-          null,
-          null
-        ]
-      },
-      "/Users/jameswhite/Desktop/Turing/Mod3/solo_projects/lunch_and_learn/spec/requests/get_recipes_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          null,
-          1,
-          null,
-          1,
-          null,
-          1,
-          null,
-          1,
-          1,
-          null,
-          1,
-          1,
-          null,
-          1,
-          1,
-          null,
-          1,
-          1,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          1,
-          null,
-          1,
-          null,
-          1,
-          1,
-          null,
-          null,
-          null,
-          1,
-          1,
-          1,
-          null,
-          1,
-          1,
-          null,
-          1,
-          1,
-          null,
-          1,
-          1,
-          null,
-          1,
-          1,
-          null,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/jameswhite/Desktop/Turing/Mod3/solo_projects/lunch_and_learn/spec/requests/post_favorites_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          1,
-          null,
-          1,
-          null,
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/jameswhite/Desktop/Turing/Mod3/solo_projects/lunch_and_learn/spec/requests/post_users_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null,
-          1,
-          1,
-          null,
-          1,
-          null,
-          null,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/jameswhite/Desktop/Turing/Mod3/solo_projects/lunch_and_learn/spec/services/photo_service_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          1,
-          null,
-          1,
-          1,
-          null,
-          1,
-          1,
-          1,
-          null,
           null,
           null
         ]
@@ -864,42 +381,6 @@
           1,
           3,
           3,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/jameswhite/Desktop/Turing/Mod3/solo_projects/lunch_and_learn/spec/services/recipes_service_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          1,
-          null,
-          1,
-          null,
-          1,
-          1,
-          null,
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
           null,
           null,
           null
@@ -923,32 +404,6 @@
           null
         ]
       },
-      "/Users/jameswhite/Desktop/Turing/Mod3/solo_projects/lunch_and_learn/spec/services/rest_countries_service_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          null,
-          1,
-          null,
-          1,
-          null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
       "/Users/jameswhite/Desktop/Turing/Mod3/solo_projects/lunch_and_learn/app/services/rest_countries_service.rb": {
         "lines": [
           1,
@@ -964,31 +419,6 @@
           null,
           null,
           null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/jameswhite/Desktop/Turing/Mod3/solo_projects/lunch_and_learn/spec/services/youtube_service_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          1,
-          1,
           null,
           null,
           null
@@ -1044,9 +474,9 @@
         "lines": [
           1,
           1,
+          3,
+          3,
           2,
-          2,
-          1,
           null,
           1,
           null,
@@ -1055,7 +485,7 @@
           1,
           null,
           1,
-          2,
+          3,
           null,
           null
         ]
@@ -1079,16 +509,20 @@
           null,
           1,
           1,
+          2,
+          2,
           1,
           null,
           null,
+          null,
           1,
           1,
+          null,
           null,
           null
         ]
       }
     },
-    "timestamp": 1673979979
+    "timestamp": 1673983213
   }
 }

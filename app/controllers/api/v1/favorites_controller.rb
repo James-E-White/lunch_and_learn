@@ -8,9 +8,13 @@ class Api::V1::FavoritesController < ApplicationController
   private
   def find_user
     @user = User.find_by(api_key: params[:api_key])
+   if @user.nil?
+     return render json: { 'error': 'Error user not found' }, status: 400
   end
+ end
 
   def favorite_params
     params.permit(:api_key, :country, :recipe_link, :recipe_title)
   end
 end
+
