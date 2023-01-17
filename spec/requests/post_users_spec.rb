@@ -2,12 +2,12 @@ require 'rails_helper'
 
 RSpec.describe 'creates a new user' do
   it 'create a new user from a post request' do
-    user = {
-      "name": "Athena Dao",
-      "email": "athenadao@bestgirlever.com"
-    }
+    user = User.create(
+      name: "Athena Dao",
+      email: "athenadao@bestgirlever.com"
+    )
     headers = { "CONTENT_TYPE" => "application/json" }
-    post '/api/v1/users', headers: headers
+    post 'c', headers: headers
 
     last_user = User.last
 

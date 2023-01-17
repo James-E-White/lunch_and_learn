@@ -1,15 +1,24 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/jameswhite/Desktop/Turing/Mod3/solo_projects/lunch_and_learn/spec/models/user_spec.rb": {
+      "/Users/jameswhite/Desktop/Turing/Mod3/solo_projects/lunch_and_learn/spec/requests/post_users_spec.rb": {
         "lines": [
           1,
           null,
           1,
           1,
-          2,
-          2,
-          2,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
           null,
           null
         ]
@@ -298,7 +307,7 @@
           null,
           null,
           1,
-          1,
+          2,
           null,
           null,
           null,
@@ -323,6 +332,7 @@
           1,
           1,
           1,
+          1,
           null,
           null,
           null,
@@ -334,6 +344,13 @@
           1,
           1,
           1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
           null,
           null
         ]
@@ -344,8 +361,34 @@
           1,
           null
         ]
+      },
+      "/Users/jameswhite/Desktop/Turing/Mod3/solo_projects/lunch_and_learn/app/controllers/api/v1/users_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          0,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/jameswhite/Desktop/Turing/Mod3/solo_projects/lunch_and_learn/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
       }
     },
-    "timestamp": 1673915353
+    "timestamp": 1673919789
   }
 }
