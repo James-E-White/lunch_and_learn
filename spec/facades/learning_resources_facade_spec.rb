@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe LearningResourcesFacade, :vcr do
   describe 'co_resources' do
-   xit 'returns images from image search' do
+   it 'returns images from image search' do
      response = LearningResourcesFacade.country_resources("Thailand")
 
         expect(response).to be_instance_of(LearningResources)
