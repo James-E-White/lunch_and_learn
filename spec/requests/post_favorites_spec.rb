@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe 'Post Favorites' do
   before do
-    headers = { 'CONTENT_TYPE' => 'application/json', 'Accept' => 'application/json'}
+    @headers = { 'CONTENT_TYPE' => 'application/json', 'Accept' => 'application/json'}
     body = { 'name': 'Athena Dao', 'email': 'athenadao@bestgirlever.com' }
     post '/api/v1/users', headers: headers, params: body, as: :json
     @user = User.last
@@ -12,7 +12,7 @@ RSpec.describe 'Post Favorites' do
     headers = { 'CONTENT_TYPE' => 'application/json'}   
     body = { 'api_key': "#{@user.api_key}", 'country': 'Thailand', 'recipe_link': 'www.goodfood.com', 'recipe_title': 'amazing eats' }
     
-    post '/api/v1/favorites', headers: headers, params: body, as: :json
+    post '/api/v1/favorites', headers: @headers, params: body, as: :json
 
     expect(response).to be_successful
     expect(response.status).to eq(201)
@@ -25,9 +25,11 @@ RSpec.describe 'Post Favorites' do
   end
   
    it 'sends an error message with appropriate response if the api_key is invalid' do
+
+   
     headers = { 'CONTENT_TYPE' => 'application/json', 'Accept' => 'application/json'}
     body = { 'api_key': "nokeys", 'country': 'Thailand', 'recipe_link': 'www.goodfood.com', 'recipe_title': 'amazing eats' }
-    post '/api/v1/favorites', headers: headers, params: body, as: :json
+    post '/api/v1/favorites', headers: @headers, params: body, as: :json
 
     expect(response.status).to eq(400)
 

@@ -1,6 +1,6 @@
 FactoryBot.define do
-  factory :user, class: 'User' do
-    name { Faker::Movie::Lebowski.character }
+  factory :user do
+    name { Faker::Movie::StarWars.character }
     email { Faker::Internet.unique.email }
   end
 end
