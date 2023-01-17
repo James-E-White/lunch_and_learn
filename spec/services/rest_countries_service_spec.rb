@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe RestCountriesService do
+RSpec.describe RestCountriesService, :vcr do
   it "exists" do
 
     rest_countries = RestCountriesService.new

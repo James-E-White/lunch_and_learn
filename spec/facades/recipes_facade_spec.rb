@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe RecipesFacade do
+RSpec.describe RecipesFacade, :vcr do
   describe 'recipes_from' do
     it 'returns a collection of recipes based on a country' do
       recipes = RecipesFacade.get_recipes('Thailand')

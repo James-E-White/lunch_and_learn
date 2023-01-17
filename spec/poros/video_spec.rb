@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe Video do 
+RSpec.describe Video, :vcr do
   describe 'initialize' do 
     it 'has attributes' do 
         video_data = YoutubeService.find_video('Thailand')[:items][0]

@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe RestCountry do
+RSpec.describe RestCountry, :vcr do 
   describe 'initialize' do
     it 'exists' do
       data = {

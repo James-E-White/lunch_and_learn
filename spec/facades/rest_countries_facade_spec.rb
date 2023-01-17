@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe RestCountriesFacade do
+RSpec.describe RestCountriesFacade, :vcr do
       it 'exists' do 
         country = RestCountriesFacade.new
 

@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe LearningResource do 
+RSpec.describe LearningResources, :vcr do
     describe 'initialize' do 
         it 'exists' do 
             country = "Thailand"
@@ -22,8 +22,8 @@ RSpec.describe LearningResource do
                  }
                 },
             ]
-          resource = LearningResource.new(video, images, country)
-          expect(resource).to be_instance_of(LearningResource)
+          resource = LearningResources.new(video, images, country)
+          expect(resource).to be_instance_of(LearningResources)
           expect(resource.country).to eq("Thailand")
           expect(resource.video).to eq({
               :id=>{:videoId=>"uw8hjVqxMXw"}, :snippet=>{:title=>"A Super Quick History of Laos"
