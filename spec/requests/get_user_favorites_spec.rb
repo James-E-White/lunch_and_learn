@@ -28,6 +28,7 @@ RSpec.describe 'get user Favorites' do
     expect(parsed_response).to be_a Hash
     expect(parsed_response).to have_key(:data)
     expect(parsed_response[:data]).to be_a(Array)
+
   end
 
   it 'returns empty array fou user with no favorites' do

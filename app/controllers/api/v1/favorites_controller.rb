@@ -10,8 +10,12 @@ class Api::V1::FavoritesController < ApplicationController
   end
 
    def create
-    Favorite.new(favorite_params)
-    render json: { 'success': 'Favorite added successfully' }, status: :created
+    new_favorite = @user.favorites.new(favorite_params)
+    if new_favorite.save 
+      render json: { 'success': 'Favorite added successfully' }, status: :created
+    else
+      render json: { 'error': 'Missing data' }, status: 400
+    end
    end
 
   private
