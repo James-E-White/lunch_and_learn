@@ -15,13 +15,6 @@ RSpec.describe RestCountriesFacade, :vcr do
       end
     end
 
-    # describe 'valid_country?' do 
-    #   it 'checks for valid country input' do
-    #     country = RestCountriesFacade.new
-    #     expect(RestCountriesFacade.valid_country?(country)).to be(true)
-    #   end
-    # end
-    
     describe 'random_country' do 
       it 'returns a random country' do 
         country = RestCountriesFacade.random_country

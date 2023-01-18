@@ -36,7 +36,8 @@ RSpec.describe 'get recipes for a country', :vcr do
   end
 
   it "returns a random country if user doesn't input one" do
-     allow(RestCountriesFacade).to receive(:random_country).and_return('Ireland')
+    allow(RestCountriesFacade).to receive(:random_country).and_return('Ireland')
+    
     get '/api/v1/recipes'
 
     expect(response).to be_successful
