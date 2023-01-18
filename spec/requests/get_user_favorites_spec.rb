@@ -47,7 +47,8 @@ RSpec.describe 'get user Favorites' do
    it 'sends an error message with appropriate response if the api_key is invalid' do
     params = { 'api_key': "nostringsonme" }
     get "/api/v1/favorites", headers: @headers, params: params
-
+    
+    expect(response).to_not be_successful
     expect(response.status).to eq(400)
     parsed_response = JSON.parse(response.body, symbolize_names: true)
 
